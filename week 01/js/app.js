@@ -212,3 +212,4 @@ let siyath = {
 console.log(siyath);
 console.log(siyath.sname);
 console.log(siyath.isActive);
+
