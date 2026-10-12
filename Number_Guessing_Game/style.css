@@ -1,0 +1,37 @@
+body {
+      background-color: #6da29d;
+      background-image: radial-gradient(circle at center, #7bb5af 0%, #5c8f8a 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    gap: 10px;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.numpad input[type="button"] {
+    width: 60px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.numpad input[value="10"] {
+    grid-column: 2;
+}
+
+input[type="text"] {
+    width: 180px;
+    padding: 8px;
+    text-align: center;
+}

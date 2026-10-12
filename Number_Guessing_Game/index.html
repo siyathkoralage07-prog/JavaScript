@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>GUESS THE NUMBER</h1>
+    <form action="">
+        <label for="text"> Guess a Number between 1-10 : </label>
+        <label for="Number"> ╰(**)╯ </label>
+    </form>
+    <br>
+    <h4 id="num">Your Guess is...</h4>
+    <!-- <input type="text" placeholder="Your Guess is..." id="num"><br><br> -->
+    <div class="numpad">
+      <input type="button" value="1" onclick="numOneGuessBtnOnAction()" id="1">
+      <input type="button" value="2" onclick="numTwoGuessBtnOnAction()" id ="2">
+      <input type="button" value="3" onclick="numThreeGuessBtnOnAction()" id="3">
+      <input type="button" value="4" onclick="numFourGuessBtnOnAction()"id="4">
+      <input type="button" value="5" onclick="numFiveGuessBtnOnAction()"id="5">
+      <input type="button" value="6" onclick="numSixGuessBtnOnAction()"id="6">
+      <input type="button" value="7" onclick="numSevenGuessBtnOnAction()"id="7">
+      <input type="button" value="8" onclick="numEightGuessBtnOnAction()"id="8">
+      <input type="button" value="9" onclick="numNineGuessBtnOnAction()"id="9">
+      <input type="button" value="10" onclick="numTenGuessBtnOnAction()"id="10">
+    </div>
+    <br>
+    <br>
+    <input type="button" value="Guess" onclick="guessBtnOnAction()">
+    </center>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
